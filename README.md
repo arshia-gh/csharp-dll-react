@@ -1,6 +1,6 @@
 # CSharp DLL as WebAssembly vs Pure JS performance benchmark
 
-## Run Demo Locally
+## How to run the demo locally
 Clone the repository
 ```
 git clone https://github.com/arshia-gh/csharp-dll-react.git
