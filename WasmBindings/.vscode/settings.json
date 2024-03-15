@@ -1,0 +1,3 @@
+{
+    "dotnet.defaultSolution": "WasmBindings.sln"
+}

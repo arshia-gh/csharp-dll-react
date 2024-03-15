@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+      <TargetFramework>net8.0</TargetFramework>
+      <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+      <BootsharpName>wasm-bindings</BootsharpName>
+      <BootsharpPackageDirectory>$(SolutionDir)</BootsharpPackageDirectory>
+      <BootsharpBinariesDirectory>$(SolutionDir)../public/bin</BootsharpBinariesDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Bootsharp" Version="0.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FastSort.dll">
+      <HintPath>..\dll\FastSort\bin\Release\net8.0\FastSort.dll</HintPath>
+    </Reference>
+   </ItemGroup>
+</Project>

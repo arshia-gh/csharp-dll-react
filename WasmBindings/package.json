@@ -1,0 +1,6 @@
+{
+    "name": "wasm-bindings",
+    "type": "module",
+    "main": "bin/wasm-bindings/index.mjs",
+    "types": "bin/wasm-bindings/types/index.d.ts"
+}
